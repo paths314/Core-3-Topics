@@ -1,0 +1,51 @@
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    position: relative;
+    background-color: white;
+    width: 40%;
+    height: 100vh;
+    top: 57px;
+    left: 5%;
+    float: left;
+    z-index: 0;
+}
+
+#main2 {
+    position: relative;
+    background-color: rgb(255, 175, 175);
+    width: 40%;
+    height: 100vh;
+    top: 57px;
+    left: 5%;
+    float: left;
+    margin-left: 3%;
+    padding: 50px;
+    z-index: 0;
+}
+
+
+/* default positioning is static
+
+static: Positioned according to the flow of the page, not adjustable 
+
+relative: can be adjusted
+
+float:left means the object will go as left as possible, for main 2 with position relative means thats right next to main
+*/
+
+#menu {
+    position: fixed;
+    background-color: aquamarine;
+    top: 100px;
+    left: 175px;
+    z-index: 5;
+}
+
+/* 
+fixed positioning: fixed to screen, despite scrolling 
+*/
