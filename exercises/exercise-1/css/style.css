@@ -49,3 +49,14 @@ float:left means the object will go as left as possible, for main 2 with positio
 /* 
 fixed positioning: fixed to screen, despite scrolling 
 */
+
+#submenu {
+    position: absolute;
+    background-color: rgb(192, 151, 230);
+    top: 75px;
+    left: 60px;
+}
+
+/* 
+absolute positioning: like fixed, but it's relative to a parent div, not the screen
+*/
