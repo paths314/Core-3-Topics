@@ -1,5 +1,5 @@
 .dark-mode {
-    background-image: url(/Assignment-3/assets/night.png);
+    background-image: url(../assets/night.png);
     transition: ease-in-out 0.7s;
 }
 
@@ -95,7 +95,7 @@ button:hover {
 }
 
 body {
-    background-image: url(/Assignment-3/assets/day2.png);
+    background-image: url(../assets/day2.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
